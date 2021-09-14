@@ -6,7 +6,7 @@
 for(var i = 1; i <= 100; i++) {
 	if (i % 3 === 0 || /[3]/.test(i)) {
 		document.write(i + "アホ〜!!" + "<br/>");
-	} else if (i % 8 === 0) {
+	} else if (i % 8 === 0 || /[8]/.test(i)) {
 		document.write(i + "オーモロー!!" + "</br>");
 	} else {
 		document.write (i + "<br/>");
