@@ -6,8 +6,8 @@
 for(var i = 1; i <= 100; i++) {
 	if (i % 3 == 0) {
 		document.write("アホ〜!!" + "<br/>");
-	} else if ((i % 5 == 0) && (i % 15 != 0)) {
-		document.write("Buzz" + "</br>");
+	} else if (i % 8 == 0) {
+		document.write("オーモロー!!" + "</br>");
 	} else {
 		document.write (i + "<br/>");
 	}
