@@ -10,8 +10,8 @@ for(var i = 1; i <= 1000; i++) {
 	} else if (i % 8 === 0 || /[8]/.test(i)) {
 		document.write(i + "オーモロー!!" + "</br>");
 	// かぶったとき"ナベアツ"って表示させたい
-	// } else if (i) {
-	// 	document.write();
+	} else if (i) {
+		document.write(i + "ナベアツッ!!" + "</br>");
 	} else {
 		document.write (i + "<br/>");
 	}
